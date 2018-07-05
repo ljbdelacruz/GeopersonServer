@@ -6,5 +6,6 @@ developers can focus on building the front end with ease
 it can be used in different apps depending on the service they needed
 it can serve both web/mobile apps
 
-
+Note:
+Services are scattered in the Servers i created
 
