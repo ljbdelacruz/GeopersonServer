@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+
+    <script type="text/javascript">
+        //insert location storage
+        //var body = new FormData();
+        //body.append("oid", "5b011fb4-15eb-4b12-8e0d-34d56dd748b1");
+        //body.append("api", "5b011fb4-15eb-4b12-8e0d-34d56dd748b1");
+        //body.append("longitude", "0");
+        //body.append("latitude", "0");
+        //body.append("cat", "user");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/LocationStorage/Insert");
+        //request.send(body);
+
+
+
+        //get meetup location
+        //$.ajax({
+        //    type: "GET",
+        //    url: "/MeetupLocation/GetByConnectionID?ID=d6a865dd-5a50-4d73-ab5d-78f7b137229d",
+        //    contentType: "application/json; charset=utf-8",
+        //    dataType: "json",
+        //    success: function (response) {
+        //        console.log(response);
+        //    }
+        //});
+        //$.ajax({
+        //    type: "GET",
+        //    url: "/Connection/GetConnectionSingleByMID?ID=81728cc5-c94f-4711-9ece-3ce52dad8c54",
+        //    contentType: "application/json; charset=utf-8",
+        //    dataType: "json",
+        //    success: function (response) {
+        //        console.log(response);
+        //        console.log(response.data[0]);
+        //        $.ajax({
+        //            type: "GET",
+        //            url: "/Connection/GetConnectionMemberUpdatedLocation?connection=" + JSON.stringify(response.data[0]),
+        //            contentType: "application/json; charset=utf-8",
+        //            dataType: "json",
+        //            success: function (response) {
+        //                console.log(response);
+        //            }
+        //        });
+        //    }
+        //});
+        //make request sample
+        //var body = new FormData();
+        //body.append("RF", "Lainel John Dela Cruz");
+        //body.append("RTID", "5b011fb4-15eb-4b12-8e0d-34d56dd748b1");
+        //body.append("CID", "00646e7f-cacf-4672-9a38-f853732c374b");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/Request/Insert");
+        //request.send(body);
+        //Accept Request
+        //var body = new FormData();
+        //body.append("RID", "6290b07c-3707-4943-ae7d-d8fcf198e077");
+        //body.append("CID", "0a80b045-c356-4a4b-8166-8b37fecf90d7");
+        //body.append("RTID", "c8184207-c360-4ae0-a696-7df0263a26a7");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/Request/AcceptRequest");
+        //request.send(body);
+        //creating connection (room)
+        //authentication
+        //var body = new FormData();
+        //body.append("username", "ljbdelacruz123@gmail.com");
+        //body.append("password", "password");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/Users/Authenticate");
+        //request.send(body);
+        //insert connections
+        //var body = new FormData();
+        //body.append("connID", "d6a865dd-5a50-4d73-ab5d-78f7b137229d");
+        //body.append("note", "meetup at 9:30am");
+        //body.append("long", "0");
+        //body.append("lat", "0");
+        //body.append("UID", "81728CC5-C94F-4711-9ECE-3CE52DAD8C54");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/MeetupLocation/Insert");
+        //request.send(body);
+
+        //update category
+        //var body = new FormData();
+        //body.append("id", "5a80248c-e3ac-40f3-a1fd-1ae8f3f5f408");
+        //body.append("name", "Test");
+        //body.append("archive", "true");
+        //var request = new XMLHttpRequest();
+        //request.open("POST", "/ItemCategory/Update");
+        //request.send(body);
+
+    </script>
+</div>
