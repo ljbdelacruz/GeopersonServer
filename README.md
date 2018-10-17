@@ -9,3 +9,14 @@ it can serve both web/mobile apps
 Note:
 Services are scattered in the Servers i created
 
+
+to create database 
+change the Web.config Datasource of database
+then open your nuget terminal
+enable-migrations -contexttype GeopersonContext(Name of the Context) -force
+add-migration GeopersonCreate
+update-database
+
+that should create the database, tables and its properties
+
+
